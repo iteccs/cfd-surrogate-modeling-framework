@@ -5,7 +5,9 @@ A research-oriented framework for data-driven surrogate modeling of CFD simulati
 
 
 ## Overview
-This framework provides a structured approach to building surrogate models for CFD simulations...
+This framework provides a structured and research-oriented approach to building surrogate models for CFD simulations. It enables the construction of reduced-order representations of complex flow systems, allowing efficient prediction of key physical quantities from geometric and flow parameters.
+
+The goal is to bridge high-fidelity CFD simulations with data-driven modeling, forming a foundation for scalable, generalizable, and publication-quality computational frameworks.
 
 ## Methodology
 - PCA for dimensionality reduction  

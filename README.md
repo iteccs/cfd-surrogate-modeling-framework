@@ -16,3 +16,13 @@ The goal is to bridge high-fidelity CFD simulations with data-driven modeling, f
 ## Usage
 ```bash
 python cfd_surrogate_baseline.py
+
+
+## Input Data
+- CSV file with one row per simulation case
+- Must include geometry, flow parameters, and CFD outputs
+
+## Outputs
+- metrics.csv (performance)
+- predictions.csv (true vs predicted)
+- plots (visual comparisons)

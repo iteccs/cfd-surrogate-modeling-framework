@@ -1,3 +1,19 @@
+
+"""
+CFD Surrogate Modeling Framework
+
+Author and Owner:
+Dr. Ahmed Kaffel, PhD
+ITECCS – Institute of Technology, Engineering, Computing, and Computational Sciences
+
+If this software or an adapted version is used in research, reports,
+presentations, theses, or publications, please acknowledge:
+
+Kaffel, A. (2026). CFD Surrogate Modeling Framework. ITECCS.
+
+License: MIT
+"""
+
 # cfd_surrogate_baseline.py
 # Baseline CFD surrogate model:
 # CFD inputs -> PCA-reduced CFD outputs -> reconstructed predictions

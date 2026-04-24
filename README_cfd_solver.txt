@@ -36,7 +36,7 @@ How to Run:
 -----------
 1. Place the dataset (cfd_dataset.csv) in the same folder
 2. Run:
-       python cfd_surrogate_baseline.py
+       python src/cfd_surrogate_baseline.py
 
 Outputs:
 --------

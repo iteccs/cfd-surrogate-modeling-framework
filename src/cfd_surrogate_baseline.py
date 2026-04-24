@@ -36,7 +36,10 @@ License: MIT
 #
 # The user should adapt input_cols and output_cols to match the actual dataset.
 
+
+
 import os
+import argparse
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -53,10 +56,32 @@ from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
 # 1. User settings
 # --------------------------------------------------
 
-CSV_FILE = "cfd_dataset.csv"
-OUTPUT_DIR = "baseline_results"
+parser = argparse.ArgumentParser(
+    description="Baseline CFD surrogate model using PCA and Ridge regression."
+)
+
+parser.add_argument(
+    "--data",
+    type=str,
+    default="data/sample_cfd_dataset.csv",
+    help="Path to the CFD dataset CSV file."
+)
+
+parser.add_argument(
+    "--output",
+    type=str,
+    default="results/baseline_results",
+    help="Directory where results will be saved."
+)
+
+args = parser.parse_args()
+
+CSV_FILE = args.data
+OUTPUT_DIR = args.output
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+
 
 # Input parameters: geometry + hydraulic/flow conditions
 input_cols = [

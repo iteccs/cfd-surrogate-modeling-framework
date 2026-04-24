@@ -1,4 +1,4 @@
-# cfd-surrogate-modeling-framework
+# CFD Surrogate Modeling Framework
 
 **Dr. Ahmed Kaffel, PhD**  
 ITECCS | University of Wisconsin–Milwaukee

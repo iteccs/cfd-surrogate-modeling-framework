@@ -1,1 +1,9 @@
 
+cff-version: 1.2.0
+title: "CFD Surrogate Modeling Framework"
+message: "If you use this software, please cite it as below."
+type: software
+author: Dr Ahmed Kaffel
+year: 2026
+license: MIT
+repository-code: "https://github.com/iteccs/cfd-surrogate-modeling-framework"

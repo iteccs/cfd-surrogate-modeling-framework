@@ -18,6 +18,12 @@ The goal is to bridge high-fidelity CFD simulations with data-driven modeling, f
 python cfd_surrogate_baseline.py
 
 
+
+
+
+python cfd_surrogate_baseline.py
+
+
 ## Input Data
 - CSV file with one row per simulation case
 - Must include geometry, flow parameters, and CFD outputs
@@ -26,3 +32,8 @@ python cfd_surrogate_baseline.py
 - metrics.csv (performance)
 - predictions.csv (true vs predicted)
 - plots (visual comparisons)
+
+
+## Citation
+
+Kaffel, A. (2026). CFD Surrogate Modeling Framework. ITECCS.
